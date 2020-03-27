@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161925544-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-161925544-1');
+        </script>
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="sports benefits">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script>
+            $(document).ready(function(){       
+                var scroll_start = 0;
+                var startchange = $('#startchange');
+                var offset = startchange.offset();
+                 if (startchange.length){
+                $(document).scroll(function() { 
+                   scroll_start = $(this).scrollTop();
+                   if(scroll_start > offset.top) {
+                       $(".navbar-default").css('background-color', '#191919');
+                    } else {
+                       $('.navbar-default').css('background-color', 'transparent');
+                    }
+                });
+                 }
+             });
+        </script>
+    </head>
+    <body>
+        <header class="sub-header" id="header">
+            <div class="bg">
+                <!--nav-->
+                <nav class="nav navbar-default navbar-fixed-top">
+                    <div class="container">
+                        <div class="col-md-12">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="fa fa-bars"></span>
+                                </button>
+                                <a href="index.html" class="navbar-brand">SPORTS</a>
+                            </div>
+                            <div class="collapse navbar-collapse navbar-right" id="mynavbar">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="index.html">HOME</a></li>
+                                    <li><a href="explore.html">EXPLORE</a></li>
+                                    <li><a href="news.html">NEWS</a></li>
+                                    <li><a href="about.html">ABOUT</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!---->
+                <div id="startchange" class="container text-center">
+                    <div class="wrapper wow fadeInUp delay-05s">
+                        <h4 class="_title">MISSION & VISION</h4>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!---->
+        <!---->
+        <section id="startchange" class="section-padding" style="background-color: #f8f8f8;">
+            <div class="container">
+                <div class="row">
+                    <div class="wow fadeInLeft delay-05s">
+                        <div class="section-title col-sm-12">
+                            <h2 class="head-title">Mission</h2>
+                            <hr class="botm-line">
+                            <p class="sec-para black">Sports website is aimed to raise the awareness of people take caring their bodies by taking part in sports activities. This is because people nowadays are having bad living habits such as unhealthy food consumption and not having enough sleep at night.</p>
+                        </div>
+                    </div>
+                    <div class="wow fadeInRight delay-05s">
+                        <div class="section-title col-sm-12">
+                            <h2 class="head-title">Vision</h2>
+                            <hr class="botm-line">
+                            <p class="sec-para black">Our vision is to increase people of joining sport activities in order to strengthen their bodies and stay healthy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---->
+        <!---->
+        <section class=" section-padding wow fadeInUp delay-05s" id="startchange">
+            <div class="container" >
+                <div class="row white">
+                    <div class="col-md-8 col-sm-12">
+                        <div class="section-title">
+                            <h2 class="head-title black">Contact Us</h2>
+                            <hr class="botm-line">
+                            <p class="sec-para black">If you don't find what you need, you may email or call us for further information. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                        <div class="col-md-4 col-sm-6" style="padding-left:0px;">
+                            <h3 class="cont-title">Email Us</h3>
+                            <div id="sendmessage">Your message has been sent. Thank you!</div>
+                            <div id="errormessage"></div>
+                            <div class="contact-info">
+                                <form action="" method="post" role="form" class="contactForm">
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                        <div class="validation"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                        <div class="validation"></div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                        <div class="validation"></div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                        <div class="validation"></div>
+                                    </div>
+                                    <button type="submit" class="btn btn-send">Send</button>
+                                </form>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <h3 class="cont-title">Visit Us</h3>
+                            <div class="location-info">
+                                <p class="white"><span aria-hidden="true" class="fa fa-map-marker"></span>Wisma KL, Kuala Lumpur, Malaysia</p>
+                                <p class="white"><span aria-hidden="true" class="fa fa-phone"></span>Phone: 03 4291 7190</p>
+                                <p class="white"><span aria-hidden="true" class="fa fa-envelope"></span>Email: <a href="" class="link-dec">mysports@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="contact-icon-container hidden-md hidden-sm hidden-xs">
+                                <span aria-hidden="true" class="fa fa-envelope-o"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---->
+        <!---->
+        <footer class="" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7 footer-copyright">
+                        © Sports - All rights reserved
+                    </div>
+                    <div class="col-sm-5 footer-social">
+                        <div class="pull-right hidden-xs hidden-sm">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!---->
+    </body>
+</html>
+
