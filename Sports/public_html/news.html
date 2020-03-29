@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161925544-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-161925544-1');
+    </script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="sports benefits">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        $(document).ready(function(){       
+            var scroll_start = 0;
+            var startchange = $('#startchange');
+            var offset = startchange.offset();
+             if (startchange.length){
+            $(document).scroll(function() { 
+               scroll_start = $(this).scrollTop();
+               if(scroll_start > offset.top) {
+                   $(".navbar-default").css('background-color', '#191919');
+                } else {
+                   $('.navbar-default').css('background-color', 'transparent');
+                }
+            });
+             }
+         });
+    </script>
+    <title>News</title>
+</head>
+<body>
+    <!--header-->
+    <header class="news-header" id="header">
+        <div class="bg">
+            <!--nav-->
+            <nav class="nav navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="fa fa-bars"></span>
+                            </button>
+                            <a href="index.html" class="navbar-brand">SPORTS</a>
+                        </div>
+                        <div class="collapse navbar-collapse navbar-right" id="mynavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="index.html">HOME</a></li>
+                                <li><a href="explore.html">EXPLORE</a></li>
+                                <li><a href="news.html">NEWS</a></li>
+                                <li><a href="about.html">ABOUT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!--/nav-->
+            <div id="startchange" class="container text-center">
+                <div class="wrapper wow fadeInUp delay-05s">
+                    <h4 class="_title">NEWS & STORIES</h4>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!---->
+    <div class="span12" id="startchange" style="text-align: center;">
+        <h2 class="sport-title">NEWS</h2>
+    </div>
+    <section id="startchange" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div>
+                        <img src="images/news-surfing.jpg" alt="surfing" class="img-responsive">
+                    </div>
+                    <div class="section-title">
+                      <h2 class="head-title">SURFING INCIDENT</h2>
+                      <hr class="botm-line">
+                    </div>
+                    <p class="sec-para ">
+                        Surfer Alex Botelho was in hospital in stable condition on Tuesday night after a horrific incident during the inaugural Nazare Tow Surfing Challenge on the central coast of Portugal, which boasts some of the biggest waves in the world.
+                    </p>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div>
+                        <img src="images/news-sailingboat.jpg" alt="sailingboat" class="img-responsive">
+                    </div>
+                    <div class="section-title">
+                      <h2 class="head-title">SAILING BOAT COMPETITION</h2>
+                      <hr class="botm-line">
+                    </div>
+                    <p class="sec-para ">
+                        Sailing boat competition has been postponed due to the coronavirus outbreak which already cause a huge amount of people infected and even die. Government of Singapore encourage people to stay at home, thus no outdoor activity is allow at this moment until further notice...
+                    </p>
+                </div>
+            </div>
+            <div class="row" id="row-style">
+                <div class="col-md-6 col-sm-6">
+                    <div>
+                        <img src="images/news-hiking.jpg" alt="hiking" class="img-responsive">
+                    </div>
+                    <div class="section-title">
+                      <h2 class="head-title">STAY SAFE AND HEALTHY WHILE HIKING</h2>
+                      <hr class="botm-line">
+                    </div>
+                    <p class="sec-para ">
+                        A lot of our visitors are still coming to their favorite parks and enjoying the trail just because nature offers solace. Visitors need to plan and avoid peak hours, also don't forget to bring essentials things such as sunscreen, water and food in backpack.
+                    </p>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div>
+                        <img src="images/news-cycling.jpg" alt="cycling" class="img-responsive">
+                    </div>
+                    <div class="section-title">
+                      <h2 class="head-title">CYCLING IS BETTER FOR THE WORLD</h2>
+                      <hr class="botm-line">
+                    </div>
+                    <p class="sec-para ">
+                        Riding a bike can reduce air pollution. London has made decision to listed bicycle as essential business in order to encourage people cycling. But many people think that cycling are more dangerous than driving since there is no protection for bikers like car.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---->
+    <footer class="" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7 footer-copyright">
+                    © Sports - All rights reserved
+                </div>
+                <div class="col-sm-5 footer-social">
+                    <div class="pull-right hidden-xs hidden-sm">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---->
+    <!--contact ends-->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="contactform/contactform.js"></script>
+</body>
+</html>
